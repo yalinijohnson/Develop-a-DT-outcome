@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond');
+@import url('https://fonts.googleapis.com/css?family=Arial');
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+
+body {
+    background-color: #bdff92;
+}
+
+header {
+    padding-right: 220px;
+    display: flex;
+    font-family: "EB Garamond";
+    align-items: center;
+    padding: 10px 20px;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 0;
+    max-width: 1200px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.enviro-logo {
+    width: 80px;
+    margin-right: 50px;
+}    
+
+h1 {
+    font-size: 35px;
+    color: #306b0a;
+}
+
+nav {
+    z-index:1000;
+    position: fixed;
+    top: 0;
+    right: 0;
+    display:flex;
+    flex-wrap: wrap;
+    font-family: "EB Garamond";
+    background-color:#6ab815;
+    align-items: center;
+    padding: 15px 15px;
+}
+
+nav a {
+    display:block;
+    text-decoration: none;
+    background-color: #a0f668;
+    padding: 12px;
+    margin-right: 30px;
+    border-radius: 100px;
+    color: black;
+    font-weight:bold;
+    font-size: 13px;
+}
+
+.elim-logo {
+    margin-right: 40px;
+    width: 180px;
+}
+
+section {
+    max-width: 100%;
+    min-width: 250px;
+    margin-top: 35px;
+    width:30%;
+    position: relative;
+    display: inline-block;
+    background-color:#6bc906;
+    border: 10px solid #6bc906;
+    font-size:16px;
+}
+
+.section-image {
+    max-width:100%;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    display:flex;
+}
+
+ section h2 {
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left:50%;
+    font-family: "Arial";
+    color:black;
+    font-weight:900;
+    font-size: 50px;
+    margin: 0px;
+    position:absolute;
+    background-color:#6bc906;
+    width:100%;
+}
+
+.verse-and-description-section {
+    margin-top:35px;
+
+}
+
+.enviro-verse {
+    font-style: italic;
+    font-family:"Dancing Script";
+    float: right;
+    width: 35%;
+    background-color: #5ea424;
+    font-size: 35px;
+    margin-top: 40px;
+    padding:15px;
+    box-sizing: border-box;
+    text-align:center;
+}
+
+.enviro-description {
+    font-family:"EB Garamond";
+    float:left;
+    width: 60%;
+    background-color: #5ea424;
+    font-size: 25px;
+    margin-top: 40px;
+    text-align:left;
+    padding: 20px;
+}
+
+
+
